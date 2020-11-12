@@ -1,0 +1,114 @@
+:root {
+    --primari-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-text-color:#2196F3;
+    --white-color:#ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-nav a{
+    color: var(--title-text-color);
+}
+
+.main-nav a:hover, 
+.main-nav a:focus{
+    color: var(--accent-text-color);
+}
+
+.contacts a{
+    color: var(--primari-text-color);
+}
+
+.contacts a:hover, 
+.contacts a:focus{
+    color: var(--accent-text-color);
+}
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero h1{
+    color:var(--white-color);
+}
+
+.hero a{
+    color:var(--white-color);
+    background-color:var(--accent-text-color);
+}
+
+.advantages h3{
+    color:var(--title-text-color);
+}
+
+.advantages p{
+    color:var(--primari-text-color);
+}
+
+.employment h2{
+    color:var(--title-text-color);
+}
+
+.about {
+    background-color: #F5F4FA;
+}
+
+.about li{
+    background-color: var(--white-color);
+}
+
+.about h3{
+    color: var(--title-text-color);
+}
+
+.about p{
+    color: var(--primari-text-color);
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer span{
+    color: var(--accent-text-color);
+}
+
+.footer p, .footer a{
+    color:var(--white-color);
+}
+
+.address a{
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.nav-button button{
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+
+.nav-button button:hover,  
+.nav-button button:focus{
+    color: var(--white-color);
+    background-color: var(--accent-text-color);
+}
+
+.galery h3{
+    color:var(--title-text-color);
+}
+
+.galery p {
+    color: var(--primari-text-color);
+}
+
+
+
+
+
+
