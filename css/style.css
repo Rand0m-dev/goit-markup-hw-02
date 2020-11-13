@@ -17,6 +17,10 @@ a {
     color: var(--title-text-color);
 }
 
+.main-nav .select-nav {
+    color: var(--accent-text-color);
+}
+
 .main-nav a:hover, 
 .main-nav a:focus{
     color: var(--accent-text-color);
@@ -45,6 +49,11 @@ a {
 }
 
 .advantages h3{
+    color:var(--title-text-color);
+}
+
+.advantages h3::first-letter{
+    text-transform: capitalize;
     color:var(--title-text-color);
 }
 
